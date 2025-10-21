@@ -1,0 +1,20 @@
+{
+  "name": "session-isolation-proxy-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "NODE_ENV=development node server/index.js",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "playwright": "^1.48.0",
+    "proxy-agent": "^6.4.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.18.0"
+  }
+}
