@@ -1,0 +1,1 @@
+# IsolamentodeSess-oeRoteamentodeProxyDinamico-
