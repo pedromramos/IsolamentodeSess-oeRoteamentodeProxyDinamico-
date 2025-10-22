@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Runtime data
+public/screenshots/
+data/sessions/
+
+# OS files
+.DS_Store
+Thumbs.db
